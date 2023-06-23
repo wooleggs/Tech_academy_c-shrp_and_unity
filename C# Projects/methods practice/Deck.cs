@@ -14,7 +14,7 @@ namespace methods_practice
             Cards = new List<Card>();
             List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
             List<string> Facees = new List<string>()
-            { "Two", "Three", "Four", "Five", "Six", "Sevem",
+            { "Two", "Three", "Four", "Five", "Six", "Seven",
                "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
             };
             foreach (string Face in Facees)

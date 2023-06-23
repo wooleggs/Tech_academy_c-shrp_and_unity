@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace methods_practice
 {
-    internal class Game
+    public abstract class Game
     {
+        public List<string> Players { get; set; }
+        public string Name { get; set; }
+        public string Dealer { get; set; }
+
+        public void ListPlayers()
+        {
+            foreach (string player in Players) 
+            { 
+                Console.WriteLine(player);
+            }
+        }
     }
 }

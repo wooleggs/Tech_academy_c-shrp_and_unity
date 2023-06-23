@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace methods_practice
 {
-    internal class BlackjackGame
+    public class BlackjackGame : Game
     {
+        public void Play() 
+        { 
+            
+            throw new NotImplementedException();
+        }
     }
 }
